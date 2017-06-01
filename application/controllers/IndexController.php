@@ -51,7 +51,6 @@ class IndexController extends Controller
      */
     public function actionIndex()
     {
-        echo Url::to(['index/demo']);
         echo 'test swoole';
     }
 

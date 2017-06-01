@@ -82,7 +82,6 @@ class HttpServer
 
             ob_start();
             //开始执行yii
-//            var_dump(HttpServer::$server['REQUEST_URI']);
             try{
                 $_SERVER = array_change_key_case(HttpServer::$server,CASE_UPPER);
                 $this->application->run();
